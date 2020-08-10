@@ -80,6 +80,17 @@ nav h2 {
   top: -50px;
 }
 
+#blurred-section {
+  position: relative;
+  top: 10px;
+  height: 100vh;
+}
+
+#blurred-section img {
+  height: 80%;
+  margin: 20%;
+}
+
 .expander {
   position: relative;
   height: 300vh;
