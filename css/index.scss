@@ -92,40 +92,38 @@ nav {
 
 #circle-container {
   position: fixed;
-  height:100vh;
-  width:100%;
+  height: 100vh;
+  width: 100%;
   top: 100px;
   opacity: 0;
 
-  .cirlces  {
+  .cirlces {
     display: block;
     width: 200px;
     height: 200px;
     position: absolute;
     margin: auto;
-  
   }
-  
+
   #circle1 {
-      top: 300px;
-      left: 300px;
-      background-color: #70886E;
-      border-radius: 50% 50% 50% 50% / 10% 30% 20% 20%;
+    top: 300px;
+    left: 300px;
+    background-color: #70886e;
+    border-radius: 50% 50% 50% 50% / 10% 30% 20% 20%;
   }
-  
+
   #circle2 {
     left: 1400px;
     background-color: #132222;
-    border-radius: 50% 50% 50% 50% /  45% 30% 50% 40%;
+    border-radius: 50% 50% 50% 50% / 45% 30% 50% 40%;
   }
-  
+
   #circle3 {
     left: 1300px;
     top: 500px;
-    background-color: #CDCA9E;
+    background-color: #cdca9e;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   }
-  
 
   #ending-title {
     position: relative;
@@ -140,18 +138,29 @@ nav {
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to   {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-  from {opacity: 1;}
-  to   {opacity: 0;}
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
-
-
 
 .expander {
   position: relative;
-  height: 230vh;
+  height: 300vh;
+}
+
+#expander2 {
+  position: relative;
+  height: 310vh;
 }

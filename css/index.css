@@ -110,20 +110,20 @@ nav h2 {
 #circle-container #circle1 {
   top: 300px;
   left: 300px;
-  background-color: #70886E;
+  background-color: #70886e;
   border-radius: 50% 50% 50% 50% / 10% 30% 20% 20%;
 }
 
 #circle-container #circle2 {
   left: 1400px;
   background-color: #132222;
-  border-radius: 50% 50% 50% 50% /  45% 30% 50% 40%;
+  border-radius: 50% 50% 50% 50% / 45% 30% 50% 40%;
 }
 
 #circle-container #circle3 {
   left: 1300px;
   top: 500px;
-  background-color: #CDCA9E;
+  background-color: #cdca9e;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 
@@ -176,6 +176,11 @@ nav h2 {
 
 .expander {
   position: relative;
-  height: 230vh;
+  height: 300vh;
+}
+
+#expander2 {
+  position: relative;
+  height: 310vh;
 }
 /*# sourceMappingURL=index.css.map */
